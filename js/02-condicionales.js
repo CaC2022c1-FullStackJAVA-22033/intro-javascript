@@ -36,7 +36,7 @@ console.log("Adiós");
 */
 
 // VERSIÓN SIN OPERADORES LÓGICOS
-/*
+
 let edad = parseInt(prompt("¿Tu edad?"));
 let genero = prompt("¿Tu género (F ó M)?");
 if (genero.toUpperCase() == "M") {
@@ -54,7 +54,7 @@ if (genero.toUpperCase() == "M") {
 } else {
     console.log("Género inválido");
 }
-*/
+
 
 // VERSIÓN CON OPERADORES LÓGICOS
 /*
