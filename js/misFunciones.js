@@ -31,3 +31,7 @@ function leerEnteroEntre(mensaje, minimo, maximo) {
 function esPar(num) {
     return num % 2 == 0;
 }
+
+function anioActual() {
+    return new Date().getFullYear();
+}
