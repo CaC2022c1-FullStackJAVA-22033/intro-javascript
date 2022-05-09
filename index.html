@@ -4,12 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
     <title>Document</title>
 </head>
 <body>
+
+    <h1 id="elTitulo">Probando a JavaScript</h1>
+    <p id="elParrafo" class="rojo negrita grande">Este es un párrafo de prueba</p>
+    <img src="" alt="">
+
+    <h1>Ejemplo de formulario básico</h1>
+	<form id="elForm" action="">
+		<label for="fname">Nombre:</label> <br>
+		<input type="text" id="fname" name="fname">
+		<br>
+		<label for="lname">Apellido:</label> <br>
+		<input type="text" id="lname" name="lname">
+		<br>
+		<label for="mensaje">Tu mensaje:</label> <br>		
+		<textarea id="mensaje" name="message" rows="5" cols="30">Un mensaje de prueba...</textarea>
+		<br>
+		<input type="submit">
+		<input type="reset">
+	</form>
+
     <!-- Levantamos el script con nuestras definiciones de funciones -->
     <script src="js/misFunciones.js"></script>
     <!-- Ahora podemos usar nuestras propias funciones en los ejercicios -->
-    <script src="js/05-objetos.js"></script>
+    <script src="js/06-DOM.js"></script>
 </body>
 </html>
