@@ -1,6 +1,7 @@
 let leyendaParrafo = document.getElementById("leyenda");
 let x = document.getElementById("elTitulo");
 let y = document.getElementById("elParrafo");
+let formulario = document.getElementById("elForm");
 let inputNombre = document.querySelector("#fname");
 let textoAnterior;
 
@@ -26,6 +27,14 @@ function handleChangeName (evt) {
     }
 }
 
+function handleForm (evt) {
+    evt.preventDefault(); // Para evitar que recargue la página
+    
+    // La lógica para cuando se envíe el formulario
+    console.log("Form enviado");
+    //return false; // Para evitar que recargue la página
+}
+
 inputNombre.onkeyup = handleChangeName;
 
 y.onclick = handleParagraph;
@@ -35,3 +44,5 @@ y.onmouseleave = irse;
 x.onclick = handleParagraph;
 x.onmouseover = handleParagraph;
 x.onmouseleave = irse;
+
+formulario.onsubmit = handleForm;

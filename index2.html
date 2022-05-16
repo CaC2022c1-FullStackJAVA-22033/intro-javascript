@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div>
+        <table id="laTabla">
+            <tr>
+                <th>Número</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+            </tr>
+            <!-- 
+                <tr>
+                    <td> 1 </td>
+                    <td> Juan </td>
+                    <td> Perez </td>
+                </tr>
+             -->
+        </table>
+    </div>
+    <hr>
+    <form id="elForm" action="">
+        <label for="fname">Nombre:</label> <br>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <label for="lname">Apellido:</label> <br>
+        <input type="text" id="lname" name="lname">
+        <br> <br>
+        <input type="button" value="Agregar" id="btnAgregar">
+        <input type="button" value="Quitar último/a" id="btnQuitar">
+    </form>
+
+    <!-- Levantamos el script con nuestras definiciones de funciones -->
+    <script src="js/misFunciones.js"></script>
+    <!-- Ahora podemos usar nuestras propias funciones en los ejercicios -->
+    <script src="js/09-arraysyDOM.js"></script>
+</body>
+
+</html>
